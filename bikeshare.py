@@ -259,10 +259,10 @@ def main():
         while True:
             view_bikeshare=input('would you like to view first 5 rows of the data set? Type: yes or No : ').lower()
             if view_bikeshare=='yes':
-                i=0
+                raw_index=0
                 while True:
-                    print(df.iloc[i:i+5]) 
-                    i+=5
+                    print(df.iloc[raw_index:raw_index+5]) 
+                    raw_index+=5
                     view_bikeshare=input('would you like to view the first 5 rows of the bike share data set?').lower()
                     if view_bikeshare=='no':
                         break
