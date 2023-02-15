@@ -12,9 +12,10 @@ Analysis bike data rental in New york,Chicago and Washigton .
 February 15th 2023.
 
 
-
-### Files used
-Include the files used
+## Files used
+* python.py, 
+* README.md
+* .CSV
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
